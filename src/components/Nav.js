@@ -47,13 +47,13 @@ function Nav(props) {
             </div>
             <div className="nav--right">
                 <ul className="nav__list--right">
-                    <li className="nav__item"><i className="fas fa-search"></i></li>
+                   {/* <li className="nav__item"><i className="fas fa-search"></i></li>*/}
                     <li className="nav__item"><span>KIDS</span></li>                        
                     <li className="nav__item"><i className="fas fa-gift"></i></li>
                     <li className="nav__item"><i className="fas fa-bell"></i></li>
                     <li className="nav__item">
                         <div className="user">
-                            <img className="user__profile" src="images/user2.png" alt="user icon"/>
+                            <img className="user__profile" src="images/avatar2.png" alt="user icon"/>
                             <i className="fas fa-sort-down"></i>
                         </div>
                     </li>
