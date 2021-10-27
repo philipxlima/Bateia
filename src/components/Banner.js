@@ -109,7 +109,7 @@ function Banner(props) {
         <header className="banner" style={{
             backgroundImage: `url("https://image.tmdb.org/t/p/original${random1}")`,
             backgroundSize: '100%',
-            backgroundPosition: 'center'
+            backgroundPosition: 'auto'
         }}>
             <div className="banner__content">
             <div className= "featured--vertical">
