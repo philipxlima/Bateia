@@ -133,11 +133,11 @@ function Banner(props) {
                                     <div className="info__overlay--videoBox">
                                         <YouTube className="info__overlay--youtube" videoId={"MknKGdvuYKo"} opts={opts} />
                                         <div className="info__overlay--iconBox">
-                                            <button className="info__button info__button--play"><i className="fas fa-play"></i><span>Play</span></button>
-                                            <span className="fa-stack fa-2x info__icon">
+                                            {*/<button className="info__button info__button--play"><i className="fas fa-play"></i><span>Play</span></button>*/}
+                                            {*/<span className="fa-stack fa-2x info__icons">
                                                 <i className="fas fa-circle fa-stack-2x icon-black-opacity"></i>
                                                 <i className="fas fa-plus fa-stack-1x icon-white"></i>
-                                            </span>
+                                            </span>*/}
                                             <span className="fa-stack fa-2x info__icon">
                                                 <i className="fas fa-circle fa-stack-2x icon-black-opacity"></i>
                                                 <i className="far fa-thumbs-up fa-stack-1x icon-white"></i>
@@ -165,11 +165,11 @@ function Banner(props) {
                                     <div className="info__overlay--videoBox">
                                         <YouTube className="info__overlay--youtube" videoId={"0sxkgQB8yHE"} opts={opts} />
                                         <div className="info__overlay--iconBoxs">
-                                            <button className="info__button info__button--play"><i className="fas fa-play"></i><span>Play</span></button>
-                                            <span className="fa-stack fa-2x info__icons">
+                                            {*/<button className="info__button info__button--play"><i className="fas fa-play"></i><span>Play</span></button>*/}
+                                            {*/<span className="fa-stack fa-2x info__icons">
                                                 <i className="fas fa-circle fa-stack-2x icon-black-opacity"></i>
                                                 <i className="fas fa-plus fa-stack-1x icon-white"></i>
-                                            </span>
+                                            </span>*/}
                                             <span className="fa-stack fa-2x info__icon">
                                                 <i className="fas fa-circle fa-stack-2x icon-black-opacity"></i>
                                                 <i className="far fa-thumbs-up fa-stack-1x icon-white"></i>
