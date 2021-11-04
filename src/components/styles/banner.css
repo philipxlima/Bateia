@@ -335,6 +335,50 @@
 
     }
 }
+@media (max-width: 425px) {
+    .banner {
+    width: auto;
+    margin-top: 0px;
+    height: 35vh;
+    color: #fff;
+    position: relative;
+    }
+    .banner__title {
+        font-size: 4vw;
+        height: -8%;
+        margin-top: 550px;
+        margin-left: 40px;
+        margin-right: -20px;
+        font-weight: 800;
+        max-width: 70rem;
+        text-shadow: 2px 2px 4px rgba(0,0,0,.85);
+    }
+    
+    .banner__overview {
+        margin: 1vw 0;
+        margin-left: 40px;
+        margin-right: -80px;
+        max-width: 60vw;
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 1.4;
+        text-shadow: 2px 2px 4px rgba(0,0,0,.95);
+    }
+    .banner__buttons{
+        margin-left: -40px;
+
+    }
+    .featured--vertical {
+        width: 120%;
+        height: 300%;
+        margin-left: -60px;
+        margin-top: 220px;
+        margin-bottom: -29px;
+        background: linear-gradient(to top, #111 10%, transparent 90%);
+    }
+}
+
+
 @media (max-width: 413px) {
     .banner {
     width: auto;
