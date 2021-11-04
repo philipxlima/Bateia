@@ -271,6 +271,36 @@
         text-shadow: 2px 2px 4px rgba(0,0,0,.95);
     }
 }
+@media (max-width: 768px) {
+    .banner {
+    width: auto;
+    margin-top: 0px;
+    height: 57vh;
+    color: #fff;
+    position: relative;
+    }
+    .banner__title {
+        font-size: 4vw;
+        height: -8%;
+        margin-top: 430px;
+        margin-left: 80px;
+        margin-right: -20px;
+        font-weight: 800;
+        max-width: 70rem;
+        text-shadow: 2px 2px 4px rgba(0,0,0,.85);
+    }
+    
+    .banner__overview {
+        margin: 1vw 0;
+        margin-left: 80px;
+        margin-right: -80px;
+        max-width: 40vw;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.4;
+        text-shadow: 2px 2px 4px rgba(0,0,0,.95);
+    }
+}
 @media (max-width: 687px) {
     .banner {
     width: auto;
@@ -346,7 +376,7 @@
     .banner__title {
         font-size: 4vw;
         height: -8%;
-        margin-top: 550px;
+        margin-top: 580px;
         margin-left: 40px;
         margin-right: -20px;
         font-weight: 800;
@@ -374,12 +404,10 @@
         margin-left: -60px;
         margin-top: 220px;
         margin-bottom: -29px;
-        background: linear-gradient(to top, #111 10%, transparent 90%);
+        background: linear-gradient(to top, #111 20%, transparent 90%);
     }
 }
-
-
-@media (max-width: 413px) {
+@media (max-width: 375px) {
     .banner {
     width: auto;
     margin-top: 0px;
@@ -390,49 +418,7 @@
     .banner__title {
         font-size: 4vw;
         height: -8%;
-        margin-top: 550px;
-        margin-left: 40px;
-        margin-right: -20px;
-        font-weight: 800;
-        max-width: 70rem;
-        text-shadow: 2px 2px 4px rgba(0,0,0,.85);
-    }
-    
-    .banner__overview {
-        margin: 1vw 0;
-        margin-left: 40px;
-        margin-right: -80px;
-        max-width: 60vw;
-        font-size: 9px;
-        font-weight: 400;
-        line-height: 1.4;
-        text-shadow: 2px 2px 4px rgba(0,0,0,.95);
-    }
-    .banner__buttons{
-        margin-left: -40px;
-
-    }
-    .featured--vertical {
-        width: 120%;
-        height: 300%;
-        margin-left: -60px;
-        margin-top: 220px;
-        margin-bottom: -29px;
-        background: linear-gradient(to top, #111 10%, transparent 90%);
-    }
-}
-@media (max-width: 320px) {
-    .banner {
-    width: auto;
-    margin-top: 0px;
-    height: 30vh;
-    color: #fff;
-    position: relative;
-    }
-    .banner__title {
-        font-size: 4vw;
-        height: -8%;
-        margin-top: 620px;
+        margin-top: 590px;
         margin-left: 40px;
         margin-right: -20px;
         font-weight: 800;
@@ -459,9 +445,78 @@
         height: 300%;
         margin-left: -55px;
         margin-top: 220px;
-        margin-bottom: -19px;
-        background: linear-gradient(to top, #111 10%, transparent 90%);
+        margin-bottom: -29px;
+        background: linear-gradient(to top, #111 20%, transparent 90%);
     }
+    .featured--horizontal {
+        width: auto;
+        height: 200%;
+        margin-top: -400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 30px;
+        padding-bottom: 170px;
+        padding-top: 70px;
+        background: linear-gradient(to right, #111 10%, transparent 90%);
+        
+    }
+}
+@media (max-width: 320px) {
+    .banner {
+    width: auto;
+    margin-top: 0px;
+    height: 30vh;
+    color: #fff;
+    position: relative;
+    }
+    .banner__title {
+        font-size: 4vw;
+        height: -8%;
+        margin-top: 730px;
+        margin-left: 40px;
+        margin-right: -20px;
+        font-weight: 800;
+        max-width: 70rem;
+        text-shadow: 2px 2px 4px rgba(0,0,0,.85);
+    }
+    
+    .banner__overview {
+        margin: 1vw 0;
+        margin-left: 40px;
+        margin-right: -80px;
+        max-width: 60vw;
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 1.4;
+        text-shadow: 2px 2px 4px rgba(0,0,0,.95);
+    }
+    .banner__buttons{
+        margin-left: -40px;
+
+    }
+    .featured--vertical {
+        width: 120%;
+        height: 300%;
+        margin-left: -51px;
+        margin-top: 220px;
+        margin-bottom: -19px;
+        background: linear-gradient(to top, #111 20%, transparent 90%);
+    }
+    .featured--horizontal {
+        width: auto;
+        height: 200%;
+        margin-top: -420px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 30px;
+        padding-bottom: 190px;
+        padding-top: 70px;
+        background: linear-gradient(to right, #111 10%, transparent 90%);
+        
+    }
+
 }
 
 
