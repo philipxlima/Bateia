@@ -131,7 +131,7 @@ function Banner(props) {
                                         <i className="fas fa-times fa-stack-1x icon-white"></i>
                                     </span>
                                     <div className="info__overlay--videoBox">
-                                        <YouTube className="info__overlay--youtube" videoId={"MknKGdvuYKo"} opts={opts} />
+                                        <YouTube className="info__overlay--youtube" videoId={"x4vdhsldXuw"} opts={opts} />
                                         <div className="info__overlay--iconBox">
                                             {/*<button className="info__button info__button--play"><i className="fas fa-play"></i><span>Play</span></button>
                                             <span className="fa-stack fa-2x info__icon">
