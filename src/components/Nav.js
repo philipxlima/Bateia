@@ -27,8 +27,8 @@ function Nav(props) {
                 <ul className="nav__list">
                 {/* without valid hrefs on anchor tags, react wants buttons. That's why these links had to be buttons */}
                     <li  className="nav__item"><button className="nav__link_home"onClick={() => {window.location.href=""}}>Home</button></li>
-                    <li className="nav__item"><button className="nav__link" onClick={() => {window.location.href="https://bateiaagencia.wixsite.com/avatar2"}}>Store</button></li>
-                    <li className="nav__item"><button className="nav__link"onClick={() => {window.location.href=""}}>Filmes</button></li>
+                    <li className="nav__item"><button className="nav__link" onClick={() => {window.location.href="https://bateiaagencia.wixsite.com/avatar2/loja"}}>Store</button></li>
+                    <li className="nav__item"><button className="nav__link"onClick={() => {window.location.href="https://bateiaagencia.wixsite.com/avatar2/about-4-1"}}>Curiosidades</button></li>
                     <li className="nav__item"><button className="nav__link"onClick={() => {window.location.href=""}}>Novos & Popular</button></li>
                     <li className="nav__item"><button className="nav__link"onClick={() => {window.location.href=""}}>Minha Lista</button></li>
                     </ul>
@@ -38,8 +38,8 @@ function Nav(props) {
                     <ul className="nav__list--hamburger">
                         <i className="fas fa-sort-up icon--up"></i>
                     <li  className="nav__item"><button className="nav__link_home"onClick={() => {window.location.href=""}}>Home</button></li>
-                    <li className="nav__item"><button className="nav__link" onClick={() => {window.location.href="https://bateiaagencia.wixsite.com/avatar2"}}>Store</button></li>
-                    <li className="nav__item"><button className="nav__link"onClick={() => {window.location.href=""}}>Filmes</button></li>
+                    <li className="nav__item"><button className="nav__link" onClick={() => {window.location.href="https://bateiaagencia.wixsite.com/avatar2/loja"}}>Store</button></li>
+                    <li className="nav__item"><button className="nav__link"onClick={() => {window.location.href="https://bateiaagencia.wixsite.com/avatar2/about-4-1"}}>Curiosidades</button></li>
                     <li className="nav__item"><button className="nav__link"onClick={() => {window.location.href=""}}>Novos & Popular</button></li>
                     <li className="nav__item"><button className="nav__link"onClick={() => {window.location.href=""}}>Minha Lista</button></li>
                     </ul>
